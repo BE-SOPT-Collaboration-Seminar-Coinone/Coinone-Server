@@ -11,7 +11,7 @@ const router = Router();
  *  @desc Get post by ID
  *  @access Private
  */
-router.get("/:id", async (req: Request, res: Response) => {
+router.get("/my-coin/:id", async (req: Request, res: Response) => {
   try {
     // const coins = await (await User.findOne({ id: req.params.id }, { _id: 0, "coin": 1 }));
     const coins = await User.findOne({ id: req.params.id }, { _id: 0, coin: 1 });

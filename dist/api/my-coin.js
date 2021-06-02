@@ -23,7 +23,7 @@ const router = express_1.Router();
  *  @desc Get post by ID
  *  @access Private
  */
-router.get("/:id", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+router.get("/my-coin/:id", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
         // const coins = await (await User.findOne({ id: req.params.id }, { _id: 0, "coin": 1 }));
         const coins = yield User_1.default.findOne({ id: req.params.id }, { _id: 0, coin: 1 });

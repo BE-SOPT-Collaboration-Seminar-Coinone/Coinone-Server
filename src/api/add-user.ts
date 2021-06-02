@@ -1,6 +1,6 @@
 import express, { Request, Response } from "express";
 import config from "../config";
-import { check, validationResult } from "express-validator";
+import { validationResult } from "express-validator";
 
 const router = express.Router();
 
