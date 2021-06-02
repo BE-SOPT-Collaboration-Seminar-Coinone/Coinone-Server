@@ -1,0 +1,11 @@
+{
+    "coinLogoImage": "https://sopt-8-coinone.s3.ap-northeast-2.amazonaws.com/KLAY.png",
+    "coinEnglishTitle": "ASTA",
+    "coinKoreanTitle": "아스타",
+    "coinCurrentPrice": "87.66",
+    "riseOrDescent": "+",
+    "degree": "5.26",
+    "percentage": "6.38",
+    "coinTotalPrice": "29179278449",
+    "graphImage": "https://sopt-8-coinone.s3.ap-northeast-2.amazonaws.com/KLAY_graph.png"
+}

@@ -1,0 +1,11 @@
+{
+    "coinLogoImage": "https://sopt-8-coinone.s3.ap-northeast-2.amazonaws.com/KLAY.png",
+    "coinEnglishTitle": "BNA",
+    "coinKoreanTitle": "바나나톡",
+    "coinCurrentPrice": "60.5",
+    "riseOrDescent": "+",
+    "degree": "66.8",
+    "percentage": "0.2",
+    "coinTotalPrice": "26006519283",
+    "graphImage": "https://sopt-8-coinone.s3.ap-northeast-2.amazonaws.com/KLAY_graph.png"
+}

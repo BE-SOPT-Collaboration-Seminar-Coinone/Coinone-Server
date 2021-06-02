@@ -4,9 +4,11 @@ import { IUser } from "../interfaces/IUser";
 
 const UserSchema = new mongoose.Schema({
   id: {
-    type : String,
+    type: String,
+    unique: true,
+    required: true
   },
-  coins: [
+  coin: [
     {
       coinLogoImage: {
         type: String,
@@ -15,13 +17,15 @@ const UserSchema = new mongoose.Schema({
       coinEnglishTitle: {
         type: String,
         required: true,
+        unique: true,
       },
       coinKoreanTitle: {
         type: String,
         required: true,
       },
-      coinPrice: {
+      coinCurrentPrice: {
         type: String,
+        required: true,
       },
       riseOrDescent: {
         type: String,
@@ -29,17 +33,22 @@ const UserSchema = new mongoose.Schema({
       },
       degree: {
         type: String,
-        required: true,
+        required: true
       },
       percentage: {
         type: String,
         required: true,
       },
-      graphImageName: {
+      coinTotalPrice: {
         type: String,
         required: true,
       },
+      graphImage: {
+        type: String,
+        required: true
+      }
     }
+
   ]
 });
 

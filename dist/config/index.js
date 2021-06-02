@@ -20,6 +20,11 @@ exports.default = {
      * That long string from mlab
      */
     mongoURI: process.env.MONGODB_URI,
+    /**
+     * Your secret sauce
+     */
+    jwtSecret: process.env.JWT_SECRET,
+    jwtAlgorithm: process.env.JWT_ALGO,
     githubClientId: process.env.GITHUB_CLIENT_ID,
     githubSecret: process.env.GITHUB_SECRET,
 };
