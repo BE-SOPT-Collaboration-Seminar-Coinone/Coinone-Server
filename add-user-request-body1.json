@@ -1,0 +1,37 @@
+{
+    "coinList": [
+        {
+            "coinLogoImage": "https://sopt-8-coinone.s3.ap-northeast-2.amazonaws.com/KLAY.png",
+            "coinEnglishTitle": "BNA",
+            "coinKoreanTitle": "바나나톡",
+            "coinCurrentPrice": "60.5",
+            "riseOrDescent": "+",
+            "degree": "66.8",
+            "percentage": "0.2",
+            "coinTotalPrice": "26006519283",
+            "graphImage": "https://sopt-8-coinone.s3.ap-northeast-2.amazonaws.com/KLAY_graph.png"
+        },
+        {
+            "coinLogoImage": "https://sopt-8-coinone.s3.ap-northeast-2.amazonaws.com/KLAY.png",
+            "coinEnglishTitle": "KLAY",
+            "coinKoreanTitle": "클레이튼",
+            "coinCurrentPrice": "1592",
+            "riseOrDescent": "+",
+            "degree": "66.8",
+            "percentage": "3.64",
+            "coinTotalPrice": "8957881877",
+            "graphImage": "https://sopt-8-coinone.s3.ap-northeast-2.amazonaws.com/KLAY_graph.png"
+        },
+        {
+            "coinLogoImage": "https://sopt-8-coinone.s3.ap-northeast-2.amazonaws.com/KLAY.png",
+            "coinEnglishTitle": "ETH",
+            "coinKoreanTitle": "이더리움",
+            "coinCurrentPrice": "3124000",
+            "riseOrDescent": "+",
+            "degree": "22000",
+            "percentage": "0.71",
+            "coinTotalPrice": "50203627033",
+            "graphImage": "https://sopt-8-coinone.s3.ap-northeast-2.amazonaws.com/KLAY_graph.png"
+        }
+    ]
+}

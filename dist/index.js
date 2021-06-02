@@ -11,7 +11,11 @@ db_1.default();
 // Define Routes
 app.use(express_1.default.json());
 // Define Routes
-app.use("/api/coin", require("./api/coin"));
+app.use("/api/add-coin", require("./api/add-coin"));
+app.use("/api/add-user", require("./api/add-user"));
+app.use("/api/my-coin", require("./api/my-coin"));
+app.use("/api/coin-list", require("./api/coin-list"));
+// app.use("/api/coinList/", require("./api/coinList/"));
 // error handler
 app.use(function (err, req, res, next) {
     // set locals, only providing error in development

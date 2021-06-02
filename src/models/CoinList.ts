@@ -10,6 +10,7 @@ const CoinListSchema = new mongoose.Schema({
   coinEnglishTitle: {
     type: String,
     required: true,
+    unique: true,
   },
   coinKoreanTitle: {
     type: String,
@@ -17,10 +18,15 @@ const CoinListSchema = new mongoose.Schema({
   },
   coinCurrentPrice: {
     type: String,
+    required: true,
   },
   riseOrDescent: {
     type: String,
     required: true,
+  },
+  degree: {
+    type: String,
+    required: true
   },
   percentage: {
     type: String,
@@ -30,6 +36,10 @@ const CoinListSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  graphImage: {
+    type: String,
+    required: true
+  }
 });
 
 export default mongoose.model<ICoin & mongoose.Document>("CoinList", CoinListSchema);

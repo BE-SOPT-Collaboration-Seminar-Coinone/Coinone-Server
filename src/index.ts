@@ -9,8 +9,11 @@ connectDB();
 app.use(express.json());
 
 // Define Routes
-app.use("/api/myCoin/", require("./api/myCoin/"));
-app.use("/api/coinList/", require("./api/coinList/"));
+app.use("/api/add-coin", require("./api/add-coin"));
+app.use("/api/add-user", require("./api/add-user"));
+app.use("/api/my-coin", require("./api/my-coin"));
+app.use("/api/coin-list", require("./api/coin-list"));
+// app.use("/api/coinList/", require("./api/coinList/"));
 
 // error handler
 app.use(function (err, req, res, next) {

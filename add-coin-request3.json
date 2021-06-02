@@ -1,0 +1,11 @@
+{
+    "coinLogoImage": "https://sopt-8-coinone.s3.ap-northeast-2.amazonaws.com/KLAY.png",
+    "coinEnglishTitle": "ETH",
+    "coinKoreanTitle": "이더리움",
+    "coinCurrentPrice": "3124000",
+    "riseOrDescent": "+",
+    "degree": "22000",
+    "percentage": "0.71",
+    "coinTotalPrice": "50203627033",
+    "graphImage": "https://sopt-8-coinone.s3.ap-northeast-2.amazonaws.com/KLAY_graph.png"
+}

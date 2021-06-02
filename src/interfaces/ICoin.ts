@@ -1,5 +1,5 @@
 export interface ICoin {
-    coinLogoImage : string;
+    coinLogoImage: string;
     coinEnglishTitle: string;
     coinKoreanTitle: string;
     coinCurrentPrice: string;
