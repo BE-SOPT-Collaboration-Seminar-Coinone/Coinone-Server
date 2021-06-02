@@ -1,0 +1,37 @@
+{
+    "coinList": [
+        {
+            "coinLogoImage": "https://sopt-8-coinone.s3.ap-northeast-2.amazonaws.com/KLAY.png",
+            "coinEnglishTitle": "KLAY",
+            "coinKoreanTitle": "클레이튼",
+            "coinCurrentPrice": "1592",
+            "riseOrDescent": "+",
+            "degree": "66.8",
+            "percentage": "3.64",
+            "coinTotalPrice": "55088908631",
+            "graphImage": "https://sopt-8-coinone.s3.ap-northeast-2.amazonaws.com/KLAY_graph.png"
+        },
+        {
+            "coinLogoImage": "https://sopt-8-coinone.s3.ap-northeast-2.amazonaws.com/KLAY.png",
+            "coinEnglishTitle": "KLAY",
+            "coinKoreanTitle": "이더리움",
+            "coinCurrentPrice": "1625",
+            "riseOrDescent": "+",
+            "degree": "66.8",
+            "percentage": "3.64",
+            "coinTotalPrice": "55088908631",
+            "graphImage": "https://sopt-8-coinone.s3.ap-northeast-2.amazonaws.com/KLAY_graph.png"
+        },
+        {
+            "coinLogoImage": "https://sopt-8-coinone.s3.ap-northeast-2.amazonaws.com/KLAY.png",
+            "coinEnglishTitle": "XRP",
+            "coinKoreanTitle": "리플",
+            "coinCurrentPrice": "1625",
+            "riseOrDescent": "+",
+            "degree": "66.8",
+            "percentage": "3.64",
+            "coinTotalPrice": "55088908631",
+            "graphImage": "https://sopt-8-coinone.s3.ap-northeast-2.amazonaws.com/KLAY_graph.png"
+        }
+    ]
+}
