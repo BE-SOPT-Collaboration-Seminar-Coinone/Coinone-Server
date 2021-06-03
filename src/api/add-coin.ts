@@ -5,8 +5,11 @@ import { validationResult } from "express-validator";
 const router = express.Router();
 
 import CoinList from "../models/CoinList";
+
+
+
 router.post(
-    "/add-coin/",
+    "/",
 
     async (req: Request, res: Response) => {
         const errors = validationResult(req);
