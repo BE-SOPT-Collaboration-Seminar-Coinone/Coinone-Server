@@ -214,7 +214,7 @@
 
 [GET]
 
-[`http://localhost:5000/api/coin-list/title/1`](http://localhost:5000/api/coin-list/title/1)
+[`/api/coin-list/title/1`]
 
 ```json
 [
@@ -273,7 +273,7 @@
 ]
 ```
 
-[`http://localhost:5000/api/coin-list/title/-1`](http://localhost:5000/api/coin-list/title/-1)
+[`/api/coin-list/title/-1`]
 
 ```json
 
